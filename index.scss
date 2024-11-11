@@ -1,0 +1,67 @@
+// index.scss
+@import 'paleta'; // Importa o arquivo _paleta.scss
+
+// Função para aplicar padding uniforme
+@mixin uniform-padding($padding) {
+  padding: $padding;
+}
+
+// Estilos Globais
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: $background-color;
+}
+
+// Cabeçalho
+header {
+  background-color: $primary-color;
+  color: $text-color;
+  @include uniform-padding(1em);
+  text-align: center;
+}
+
+// Navegação
+nav {
+  background-color: $secondary-color;
+  text-align: center;
+  @include uniform-padding(0.5em);
+
+  a {
+    color: $text-color;
+    margin: 0 15px;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// Conteúdo Principal
+main {
+  @include uniform-padding(1em);
+}
+
+// Rodapé
+footer {
+  background-color: $primary-color;
+  color: $text-color;
+  text-align: center;
+  @include uniform-padding(1em);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+// Destaque com pseudoclasse :hover
+span.highlight {
+  color: $secondary-color;
+  cursor: pointer;
+
+  &:hover {
+    color: darken($secondary-color, 10%);
+  }
+  
+}
