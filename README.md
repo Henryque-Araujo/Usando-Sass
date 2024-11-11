@@ -9,7 +9,7 @@ Baseado na aula de Front-end, ministrada pelo curso de TSI, esta atividade consi
 
  <b><i>Configuração Inicial:</b></i>
 
-Crie um novo projeto web com um arquivo index.html  com uma estrutura básica (como na aula) e dois arquivos SCSS (_paleta.scss e index.scss) que geram um arquivo CSS. Dentro do arquivo scss principal crie o que se pede abaixo:
+Crie um novo projeto web com um arquivo index.html com uma estrutura básica (como na aula) e dois arquivos SCSS (_paleta.scss e index.scss) que geram um arquivo CSS. Dentro do arquivo scss principal crie o que se pede abaixo:
 
 <hr>
 <b><i> Variáveis e Aninhamento:</b></i>
